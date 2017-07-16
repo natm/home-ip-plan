@@ -1,10 +1,12 @@
 # Home IP Plan
 
-AS30746
+## AS30746
+
+Home AS number, transit provided by AS60036
+
+## IPv4
 
 Need to migrate out of 185.61.112.0/23
-
-193.47.147.0/24
 
 * 193.47.147.0/24             Covering prefix
   * 193.47.147.0/28           Loopbacks and /32's
