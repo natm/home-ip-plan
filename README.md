@@ -32,3 +32,7 @@ Need to migrate out of 185.61.112.0/23
   * **193.47.147.192/26**         Wireless clients, SSID: Llwyn Y Gorras
     * 193.47.147.193          VLAN gateway
     * 193.47.147.196 - 254    DHCP
+
+* 10.76.0.0/16
+  * 10.76.31.0/24     VLAN 31 - CCTV
+  * 10.76.32.0/24     VLAN 32 - Wifi APs
