@@ -8,6 +8,8 @@ Need to migrate out of 185.61.112.0/23
   * **193.47.147.0/28**           Loopbacks and /32's
     * 193.47.147.1            rt1.home.nat.ms
     * 193.47.147.2            sw1.home.nat.ms
+    * 193.47.147.14           NAT src CCTV
+    * 193.47.147.15           NAT src Wifi APs
   * **193.47.147.16/28**          Linknets
     * 193.47.147.16/30        rt1-sw1
       * 193.47.147.17         eth4.rt1
@@ -34,6 +36,5 @@ Need to migrate out of 185.61.112.0/23
     * 193.47.147.196 - 254    DHCP
 
 * 10.76.0.0/16
-
   * 10.76.31.0/24     VLAN 31 - CCTV
   * 10.76.32.0/24     VLAN 32 - Wifi APs
