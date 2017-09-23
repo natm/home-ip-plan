@@ -30,21 +30,29 @@ Need to migrate out of 185.61.112.0/23
   * **193.47.147.64/27**          Outdoor
   * **193.47.147.96/27**          House
   * **193.47.147.128/27**         Office
-  * **193.47.147.160/27**         Workshop and shed
-    * 194.47.147.161          VLAN gateway sw1
-    * 194.47.147.162          swbarn1
-    * 194.47.147.163          swbarn2
-    * 194.47.147.164          swworkshop1
-    * 194.47.147.165          pdushed1
-    * 194.47.147.166          upsshed1
-    * 194.47.147.167          pdubarn1
-    * 194.47.147.168          upsbarn1
-    * 194.47.147.169          pirelay1
-    * 194.47.147.170          pirelay2
-    * 194.47.147.171          cctvnvr1
-    * 194.47.147.180          DHCP
+    * 193.47.147.129 
+    * 193.47.147.130          officesw1 (static)
+    * 193.47.147.131          officesw2 (static)
+    * 193.47.147.132          printer (DHCP)
+    * 193.47.147.133          pdu1 (DHCP)
+    * 193.47.147.140          DHCP
     * ...
-    * 194.47.147.190          DHCP
+    * 193.47.147.158          DHCP
+  * **193.47.147.160/27**         Workshop and shed
+    * 193.47.147.161          VLAN gateway sw1
+    * 193.47.147.162          barnsw1
+    * 193.47.147.163          barnsw1
+    * 193.47.147.164          workshopsw1
+    * 193.47.147.165          pdushed1
+    * 193.47.147.166          upsshed1
+    * 193.47.147.167          pdubarn1
+    * 193.47.147.168          upsbarn1
+    * 193.47.147.169          pirelay1
+    * 193.47.147.170          pirelay2
+    * 193.47.147.171          cctvnvr1
+    * 193.47.147.180          DHCP
+    * ...
+    * 193.47.147.190          DHCP
   * **193.47.147.192/26**         Wireless clients, SSID: Llwyn Y Gorras
     * 193.47.147.193          VLAN gateway
     * 193.47.147.196 - 254    DHCP
