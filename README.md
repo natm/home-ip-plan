@@ -2,8 +2,6 @@
 
 Home AS number, transit provided by AS60036
 
-Need to migrate out of 185.61.112.0/23
-
 * 193.47.147.0/24             Covering prefix
   * **193.47.147.0/28**           Loopbacks and /32's
     * 193.47.147.1            rt1.home.nat.ms
@@ -31,7 +29,7 @@ Need to migrate out of 185.61.112.0/23
     * 193.47.147.58           polesw1
     * 193.47.147.59           polepdu1
     * 193.47.147.60           poleups1
-  * **193.47.147.64/27**          Outdoor
+  * **193.47.147.64/27**          Outdoor - garden, treehouse, logstore etc
   * **193.47.147.96/27**          House
     * 193.47.147.110          DHCP
     * ...
@@ -45,7 +43,7 @@ Need to migrate out of 185.61.112.0/23
     * 193.47.147.140          DHCP
     * ...
     * 193.47.147.158          DHCP
-  * **193.47.147.160/27**         Workshop and shed
+  * **193.47.147.160/27**         Workshop, barn and shed
     * 193.47.147.161          VLAN gateway sw1
     * 193.47.147.162          barnsw1
     * 193.47.147.163          barnsw1
