@@ -40,6 +40,7 @@ Home AS number, transit provided by AS60036
     * 193.47.147.131          officesw2 (static)
     * 193.47.147.132          printer (DHCP)
     * 193.47.147.133          pdu1 (DHCP)
+    * 193.47.147.134          swloft1
     * 193.47.147.140          DHCP
     * ...
     * 193.47.147.158          DHCP
