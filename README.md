@@ -67,6 +67,6 @@ Home AS number, transit provided by AS60036
     * 193.47.147.196 - 254    DHCP
 
 * 10.76.0.0/16
-  * 10.76.31.0/24     VLAN 31 - CCTV
-  
+  * 10.76.31.0/24     VLAN 31 - CCTV  
   * 10.76.32.0/24     VLAN 32 - Wifi APs
+  * 10.76.33.0/24     temp nat'd on rt3
