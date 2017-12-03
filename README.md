@@ -70,3 +70,13 @@ Home AS number, transit provided by AS60036
   * 10.76.31.0/24     VLAN 31 - CCTV  
   * 10.76.32.0/24     VLAN 32 - Wifi APs
   * 10.76.33.0/24     temp nat'd on rt3
+
+
+```
+2001:67c:1b40::/46 cover
+2001:67c:1b40::/48 home
+2001:67c:1b40::3/128
+2001:67c:1b40:1::/64  linknets - as /112s
+2001:67c:1b40:1:1::/112 sw1-rt3
+
+```
