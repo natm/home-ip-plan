@@ -6,6 +6,7 @@ Home AS number, transit provided by AS60036
   * **193.47.147.0/28**           Loopbacks and /32's
     * 193.47.147.1            rt1.home.nat.ms
     * 193.47.147.2            sw1.home.nat.ms
+    * 193.47.147.3            rt3.home.nat.ms
     * 193.47.147.14           NAT src CCTV
     * 193.47.147.15           NAT src Wifi APs
   * **193.47.147.16/28**          Linknets
@@ -19,6 +20,8 @@ Home AS number, transit provided by AS60036
       * 193.47.147.25         sw1
       * 193.47.147.26         host
     * 193.47.147.28/30
+      * 193.47.147.29         sw1
+      * 193.47.147.30         rt3
   * **193.47.147.32/28**          Linknets
     * 193.47.147.32/30
     * 193.47.147.36/30
