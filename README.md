@@ -7,7 +7,8 @@ Home AS number, transit provided by AS60036
     * 193.47.147.1            rt1.home.nat.ms
     * 193.47.147.2            sw1.home.nat.ms
     * 193.47.147.3            rt3.home.nat.ms
-    * 193.47.147.14           NAT src CCTV
+    * 193.47.147.13           NAT src VPN users
+    * 193.47.147.14           NAT src CCTV
     * 193.47.147.15           NAT src Wifi APs
   * **193.47.147.16/28**          Linknets
     * 193.47.147.16/30        rt1-sw1
