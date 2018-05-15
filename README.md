@@ -1,6 +1,6 @@
 # Home IP Plan
 
-Home AS number, transit provided by AS60036
+Home AS30746, transit provided by AS60036
 
 * 193.47.147.0/24             Covering prefix
   * **193.47.147.0/28**           Loopbacks and /32's
@@ -34,6 +34,13 @@ Home AS number, transit provided by AS60036
     * 193.47.147.59           polepdu1
     * 193.47.147.60           poleups1
   * **193.47.147.64/27**          Outdoor - garden, treehouse, logstore etc
+    * 193.47.147.65           VLAN gateway sw1
+    * 193.47.147.66           greenhousesw1
+    * 193.47.147.67           treehousesw1
+    * 193.47.147.68           logstoresw1
+    * 193.47.147.80           DHCP
+    * ...
+    * 193.47.147.94           DHCP
   * **193.47.147.96/27**          House
     * 193.47.147.110          DHCP
     * ...
