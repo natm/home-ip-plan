@@ -42,6 +42,8 @@ Home AS30746, transit provided by AS60036
     * ...
     * 193.47.147.94           DHCP
   * **193.47.147.96/27**          House
+    * 193.47.147.97           VLAN gateway
+    * 193.47.147.98           loungesw1
     * 193.47.147.110          DHCP
     * ...
     * 193.47.147.127          DHCP
