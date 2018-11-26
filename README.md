@@ -8,6 +8,7 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.2            sw1.home.nat.ms
     * 193.47.147.3            rt3.home.nat.ms
     * 193.47.147.10           VIP home-assistant
+    * 193.47.147.12           NAT / VIP willie-howe VPN project
     * 193.47.147.13           NAT src VPN users
     * 193.47.147.14           NAT src CCTV
     * 193.47.147.15           NAT src Wifi APs
