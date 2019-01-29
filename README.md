@@ -2,7 +2,8 @@
 
 Home AS30746, transit provided by AS60036
 
-* 193.47.147.0/24             Covering prefix
+* 44.131.4.0/24 Home AMPRnet prefix
+* 193.47.147.0/24             Home PI prefix
   * **193.47.147.0/28**           Loopbacks and /32's
     * 193.47.147.1            rt1.home.nat.ms
     * 193.47.147.2            sw1.home.nat.ms
