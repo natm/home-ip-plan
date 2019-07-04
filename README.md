@@ -14,14 +14,15 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.9            VIP DNS resolver 2
     * 193.47.147.10           VIP home-assistant
     * 193.47.147.11           VIP time NTP/SNTP
-    * 193.47.147.12           VIP willie-howe VPN project
+    * 193.47.147.12           NAT src guests
     * 193.47.147.13           NAT src VPN L2TP users
     * 193.47.147.14           NAT src CCTV
     * 193.47.147.15           NAT src Wifi AP management
-  * **193.47.147.16/28**          Linknets
-    * 193.47.147.16/30        rt1-sw1
-      * 193.47.147.17         eth4.rt1
-      * 193.47.147.18         x.sw1
+    * 193.47.147.16           NAT src IOT
+    * 193.47.147.17
+    * 193.47.147.18
+    * 193.47.147.19
+    
     * 193.47.147.20/30        sw1-wlc
       * 193.47.147.21         sw1
       * 193.47.147.22         wlc
@@ -88,8 +89,8 @@ Home AS30746, transit provided by AS60036
   * 10.76.12.0/24     VLAN 12 - Switch management
   * 10.76.13.0/24     VLAN 13 - Unifi APs
   * VLAN14 - home wifi users
-  * VLAN15 - guest wifi users
-  * VLAN16 - pwleng wifi users
+  * 10.76.14.0/24     VLAN15  - guest wifi users
+  * 10.76.16.0/24     VLAN 16 - IOT
   * 10.76.31.0/24     VLAN 31 - CCTV  
   * 10.76.32.0/24     VLAN 32 - Cisco APs
   * 10.76.33.0/24     temp nat'd on rt3
