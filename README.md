@@ -89,7 +89,7 @@ Home AS30746, transit provided by AS60036
   * 10.76.12.0/24     VLAN 12 - Switch management
   * 10.76.13.0/24     VLAN 13 - Unifi APs
   * VLAN14 - home wifi users
-  * 10.76.14.0/24     VLAN15  - guest wifi users
+  * 10.76.15.0/24     VLAN15  - guest wifi users
   * 10.76.16.0/24     VLAN 16 - IOT
   * 10.76.31.0/24     VLAN 31 - CCTV  
   * 10.76.32.0/24     VLAN 32 - Cisco APs
