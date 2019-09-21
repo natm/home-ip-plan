@@ -86,6 +86,7 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.196 - 254    DHCP
 
 * 10.76.0.0/16
+  * 10.76.11.0/24     VLAN 11 - Power management, UPS/PDUs
   * 10.76.12.0/24     VLAN 12 - Switch management
   * 10.76.13.0/24     VLAN 13 - Unifi APs
   * VLAN14 - home wifi users
