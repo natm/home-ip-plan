@@ -98,7 +98,8 @@ Home AS30746, transit provided by AS60036
   * 10.76.32.0/24     VLAN 32 - Cisco APs
   * 10.76.33.0/24     temp nat'd on rt3
   * 10.76.34.0/24     VPN users
-  * 10.76.200.0/23    Docker containers
+  * 10.76.200.0/23    Docker containers - covering prefixes - /32s via CRoHDAd
+  
 
 
 ```
