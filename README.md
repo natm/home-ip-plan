@@ -8,7 +8,7 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.1            rt1.home.nat.ms
     * 193.47.147.2            sw1.home.nat.ms
     * 193.47.147.3            rt3.home.nat.ms
-    * 193.47.147.6            VIP LibreNMS
+    * 193.47.147.6            VIP Caddy?
     * 193.47.147.7            VIP MQTT broker
     * 193.47.147.8            VIP DNS resolver 1
     * 193.47.147.9            VIP DNS resolver 2
