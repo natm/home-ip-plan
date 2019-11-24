@@ -102,6 +102,15 @@ Home AS30746, transit provided by AS60036
   * 10.76.33.0/24     temp nat'd on rt3
   * 10.76.34.0/24     VPN users
   * 10.76.200.0/23    Docker containers - covering prefixes - /32s via CRoHDAd
+     * 10.76.200.1-9  web test boxes
+     * 10.76.200.10   nodered
+     * 10.76.200.11   mqtt
+     * 10.76.200.12   homenms
+     * 10.76.200.13   homenms-db
+     * 10.76.200.14   homeassistant (todo)
+     * 10.76.200.15
+     * 10.76.200.16
+     * 10.76.200.17
   
 
 
