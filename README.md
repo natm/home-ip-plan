@@ -8,10 +8,10 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.1            rt1.home.nat.ms
     * 193.47.147.2            sw1.home.nat.ms
     * 193.47.147.3            rt3.home.nat.ms
-    * 193.47.147.6            VIP Caddy?
+    * 193.47.147.6            VIP Caddy  NAT'd
     * 193.47.147.7            VIP MQTT broker
-    * 193.47.147.8            VIP DNS resolver 1
-    * 193.47.147.9            VIP DNS resolver 2
+    * 193.47.147.8            VIP DNS resolver 1   BGP 
+    * 193.47.147.9            VIP DNS resolver 2   BGP
     * 193.47.147.10           VIP syslog
     * 193.47.147.11           VIP time NTP/SNTP
     * 193.47.147.12           NAT src guests
@@ -108,7 +108,7 @@ Home AS30746, transit provided by AS60036
      * 10.76.200.12   homenms
      * 10.76.200.13   homenms-db
      * 10.76.200.14   homeassistant (todo)
-     * 10.76.200.15
+     * 10.76.200.15   caddy dst-nat'd behind 193.47.147.6
      * 10.76.200.16
      * 10.76.200.17
   
