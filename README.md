@@ -108,10 +108,10 @@ Home AS30746, transit provided by AS60036
      * 10.76.200.12   homenms
      * 10.76.200.13   homenms-db
      * 10.76.200.14   caddy dst-nat'd behind 193.47.147.6
-     * 10.76.200.15   portainer
-     * 10.76.200.16   homeassistant (todo)
-     * 10.76.200.17
-     * 10.76.200.18
+     * 10.76.200.15   portainer - portainer.home.nat.ms
+     * 10.76.200.16   homeassistant - ha.home.nat.ms
+     * 10.76.200.17   influxdb
+     * 10.76.200.18   grafana
   
 
 
