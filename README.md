@@ -16,10 +16,10 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.11           VIP time NTP/SNTP
     * 193.47.147.12           NAT src guests
     * 193.47.147.13           NAT src VPN L2TP users
-    * 193.47.147.14           NAT src CCTV
+    * 193.47.147.14           NAT src home
     * 193.47.147.15           NAT src Wifi AP management
     * 193.47.147.16           NAT src IOT
-    * 193.47.147.17
+    * 193.47.147.17           NAT src CCTV
     * 193.47.147.18
     * 193.47.147.19
     
