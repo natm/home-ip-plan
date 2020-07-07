@@ -21,7 +21,7 @@ Home AS30746, transit provided by AS60036
     * 193.47.147.16           NAT src IOT
     * 193.47.147.17           NAT src CCTV
     * 193.47.147.18
-    * 193.47.147.19
+    * 193.47.147.19           NAT/VIP Unifi Controller
     
     * 193.47.147.20/30        
       * 193.47.147.21         
