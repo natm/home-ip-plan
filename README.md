@@ -116,12 +116,18 @@ Home AS30746, transit provided by AS60036
      * 10.76.200.20   ?
      * 10.76.200.21   iocontroller home
      * 10.76.200.30   atlas-home
-     * 10.76.200.31   atlas-dyfedit
+     * 10.76.200.31   atlas-dyfedit   (on BGP ext interface)
      * 10.76.200.32   atlas-faelix
      * 10.76.200.33   atlas-aaisp
      * 10.76.200.34   atlas-vodafone
-  
-
+     * 10.76.200.35   atlas-dyfedit2  (on independant pppoe conn)
+     * 10.76.200.40   telegraf-home
+     * 10.76.200.41   telegraf-dyfedit   (on BGP ext interface)
+     * 10.76.200.42   telegraf-faelix
+     * 10.76.200.43   telegraf-aaisp
+     * 10.76.200.44   telegraf-vodafone
+     * 10.76.200.45   telegraf-dyfedit2  (on independant pppoe conn)
+     
 
 ```
 2001:67c:1b40::/46 cover
