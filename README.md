@@ -115,6 +115,7 @@ Home AS30746, transit provided by AS60036
      * 10.76.200.19   ?
      * 10.76.200.20   ?
      * 10.76.200.21   iocontroller home
+     * 10.76.200.22   motion
      * 10.76.200.30   atlas-home
      * 10.76.200.31   atlas-dyfedit   (on BGP ext interface)
      * 10.76.200.32   atlas-faelix
