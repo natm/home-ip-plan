@@ -4,6 +4,10 @@ Home AS30746, transit provided by AS41495 and AS60036.
 
 ## Covering prefixes
 
+| Prefix                      | RIR           | Type       | Notes                                    |
+|-----------------------------|---------------|------------|------------------------------------------|
+| 44.131.40.0/24              |   AMPRnet     |  Assigned  | Amateur radio space                      |
+
 * 44.131.40.0/24   AMPRnet
 * 91.232.181.0 RIPE PA - Home, loaded to Dyfed IT until August 2020
 * 185.19.148.0/23  RIPE PA - Home, loaded to Dyfed IT until August 2020
