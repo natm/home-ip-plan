@@ -2,18 +2,21 @@
 
 Home AS30746, transit provided by AS41495 and AS60036.
 
-## Covering prefixes
+## Prefixes
 
-| Prefix                      | RIR           | Type       | Notes                                    |
-|-----------------------------|---------------|------------|------------------------------------------|
-| 44.131.40.0/24              |   AMPRnet     |  Assigned  | Amateur radio space                      |
+| Prefix              | Originated  | RIR           | Type       | Notes                                    |
+|---------------------|------------ |---------------|------------|------------------------------------------|
+| 44.131.40.0/24      | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space                 |
+| 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaded to Dyfed IT until August 2020     |
+| 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaded to Dyfed IT until August 2020     |
+| 185.19.150.0/24     | AS20712     |   RIPE        |  PA        | Friends and family AAISP FTTC lines      |
+| 185.19.151.0/24     | AS57436     |   RIPE        |  PA        | Loaned to Sameer Abdel-Hafez             |
+| 185.61.112.0/22     | AS30746     |   RIPE        |  PA        | Home network, unused                     |
+| 185.61.115.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Dyfed IT until August 2020     |
+| 193.47.147.0/24     | AS30746     |   RIPE        |  PA        | Home network                             |
+| 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Dyfed IT until August 2020     |
 
-* 44.131.40.0/24   AMPRnet
-* 91.232.181.0 RIPE PA - Home, loaded to Dyfed IT until August 2020
-* 185.19.148.0/23  RIPE PA - Home, loaded to Dyfed IT until August 2020
-* 185.61.112.0/22  RIPE PA - Home, loaded to Dyfed IT until August 2020
-* 193.47.147.0/24  RIPE PI - Home
-* 195.177.252.0/23 RIPE PA - Home, loaded to Dyfed IT until August 2020
+
 
 ## Assignments:
 
