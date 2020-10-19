@@ -1,8 +1,18 @@
 # Home IP Plan
 
-Home AS30746, transit provided by AS60036
+Home AS30746, transit provided by AS41495 and AS60036.
 
-* 44.131.4.0/24 Home AMPRnet prefix
+## Covering prefixes
+
+* 44.131.40.0/24   AMPRnet
+* 91.232.181.0 RIPE PA - Home, loaded to Dyfed IT until August 2020
+* 185.19.148.0/23  RIPE PA - Home, loaded to Dyfed IT until August 2020
+* 185.61.112.0/22  RIPE PA - Home, loaded to Dyfed IT until August 2020
+* 193.47.147.0/24  RIPE PI - Home
+* 195.177.252.0/23 RIPE PA - Home, loaded to Dyfed IT until August 2020
+
+## Assignments:
+
 * 193.47.147.0/24             Home PI prefix
   * **193.47.147.0/28**           Loopbacks and /32's
     * 193.47.147.1            rt1.home.nat.ms
@@ -42,35 +52,12 @@ Home AS30746, transit provided by AS60036
       * 193.47.147.41         rt1
       * 193.47.147.42         pve1
       * 193.47.147.43         pve1-ipmi
-  * **193.47.147.56/29**          Pole
-    * 193.47.147.57           sw1
-    * 193.47.147.58           polesw1
-    * 193.47.147.59           polepdu1
-    * 193.47.147.60           poleups1
-  * **193.47.147.64/27**          Outdoor - garden, treehouse, logstore etc
-    * 193.47.147.65           VLAN gateway sw1
-    * 193.47.147.66           
-    * 193.47.147.67           
-    * 193.47.147.68           
-    * 193.47.147.80           DHCP
-    * ...
-    * 193.47.147.94           DHCP
-  * **193.47.147.96/27**          House
-    * 193.47.147.97           VLAN gateway
-    * 193.47.147.98           
-    * 193.47.147.110          DHCP
-    * ...
-    * 193.47.147.127          DHCP
+  * **193.47.147.56/29**
+  * **193.47.147.64/27**
+  * **193.47.147.96/27**
   * **193.47.147.128/27**         Office
-    * 193.47.147.129 
-    * 193.47.147.130          
-    * 193.47.147.131          
+    * 193.47.147.129          rt1
     * 193.47.147.132          printer (DHCP)
-    * 193.47.147.133          pdu1 (DHCP)
-    * 193.47.147.134          swloft1
-    * 193.47.147.140          DHCP
-    * ...
-    * 193.47.147.158          DHCP
   * **193.47.147.160/27**         Workshop, barn and shed
     * 193.47.147.161          VLAN gateway sw1
     * 193.47.147.162          barnsw1
