@@ -51,9 +51,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
       * 193.47.147.25         rt1
       * 193.47.147.26         rt2
     * 193.47.147.28/30
-      * 193.47.147.29         rt2
-      * 193.47.147.30         rt3
-  * **193.47.147.32/28**          Linknets
+      * 193.47.147.29         
+      * 193.47.147.30         
     * 193.47.147.32/29
       * 193.47.147.33         rt1
       * 193.47.147.34         moby1
@@ -63,12 +62,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
       * 193.47.147.41         rt1
       * 193.47.147.42         pve1
       * 193.47.147.43         pve1-ipmi
-  * **193.47.147.56/29**
-  * **193.47.147.64/27**
-  * **193.47.147.96/27**
-  * **193.47.147.128/27**         Office
-    * 193.47.147.129          rt1
-    * 193.47.147.132          printer (DHCP)
   * **193.47.147.160/27**         Workshop, barn and shed
     * 193.47.147.161          VLAN gateway sw1
     * 193.47.147.162          barnsw1
@@ -83,9 +76,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     * 193.47.147.180          DHCP
     * ...
     * 193.47.147.190          DHCP
-  * **193.47.147.192/26**         Wireless clients, SSID: Llwyn Y Gorras
-    * 193.47.147.193          VLAN gateway
-    * 193.47.147.196 - 254    DHCP
+  * **193.47.147.248/29**     ToR relays
+    * 193.47.147.251          tor-relay1
+    * 193.47.147.252          tor-relay2
 
 * 10.76.0.0/16
   * 10.76.11.0/24     VLAN 11 - Power management, UPS/PDUs
