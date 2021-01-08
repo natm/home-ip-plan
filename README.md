@@ -126,7 +126,15 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.43   telegraf-aaisp
      * 10.76.200.44   telegraf-vodafone
      * 10.76.200.45   telegraf-dyfedit2  (on independant pppoe conn)
-     
+     * 10.76.200.200/29    dyfedit1 (castlemorris)
+     * 10.76.200.208/29    dyfedit2 (llwynygorras)
+     * 10.76.200.216/29    dyfeditpppoe (llwynygorras)
+     * 10.76.200.224/29    vodafone
+     * 10.76.200.232/29    faelix (tunnel over vodafone)
+     * 10.76.200.240/29
+     * 10.76.200.248/29    No routing_mark
+      * 10.76.200.248 atlas-home
+      * 10.76.200.249 telegraf-home
 
 ```
 2001:67c:1b40::/46 cover
