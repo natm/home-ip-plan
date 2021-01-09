@@ -21,6 +21,24 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 | 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Dyfed IT until August 2020     |
 
 
+## BGP communities
+
+```
+30746:668             Route recieved from UTRS blackhole service
+
+30746:1000            Route recieved from transit
+30746:1001               from Dyfed IT Castlemorris 1G
+30746:1002               from Dyfed IT Llwynygorras 1G
+30746:1004               from FAELIX tunnel
+
+30746:5000            Route recieved from a hypervisor
+30746:5101               from moby1                          *
+30746:5102               from moby2                          *
+30746:5103               from moby3                          *
+30746:5104               from moby4                          *
+```
+
+
 
 ## Assignments:
 
@@ -35,7 +53,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     * 193.47.147.9            VIP DNS resolver 2   BGP
     * 193.47.147.10           VIP syslog
     * 193.47.147.11           VIP time NTP/SNTP
-    * 193.47.147.12           NAT src guests
+    * 193.47.147.12
     * 193.47.147.13           NAT src VPN L2TP users
     * 193.47.147.14           NAT src home
     * 193.47.147.15           NAT src Wifi AP management
@@ -63,14 +81,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
       * 193.47.147.42         pve1
       * 193.47.147.43         pve1-ipmi
   * **193.47.147.160/27**         Workshop, barn and shed
-    * 193.47.147.161          VLAN gateway sw1
-    * 193.47.147.162          barnsw1
-    * 193.47.147.163          barnsw1
+    * 193.47.147.161          rt1
     * 193.47.147.164          workshopsw1
-    * 193.47.147.165          pdushed1
-    * 193.47.147.166          upsshed1
-    * 193.47.147.167          pdubarn1
-    * 193.47.147.168          upsbarn1
     * 193.47.147.169          pirelay1
     * 193.47.147.170          pirelay2
     * 193.47.147.180          DHCP
@@ -85,10 +97,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
   * 10.76.12.0/24     VLAN 12 - Switch management
   * 10.76.13.0/24     VLAN 13 - Unifi APs
   * VLAN14 - home wifi users
-  * 10.76.15.0/24     VLAN15  - guest wifi users
   * 10.76.16.0/24     VLAN 16 - IOT
   * 10.76.31.0/24     VLAN 31 - CCTV  
-  * 10.76.32.0/24     VLAN 32 - Cisco APs
+  * 10.76.32.0/24     VLAN 32 - APs
   * 10.76.33.0/24     temp nat'd on rt3
   * 10.76.34.0/24     VPN users
   * 10.76.200.0/23    Docker containers - covering prefixes - /32s via CRoHDAd
