@@ -99,14 +99,14 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.18.0/24             VLAN 18 - Vodafone LTE routed via SXTLTE
     10.76.31.0/24             VLAN 31 - CCTV cameras
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
-     * 10.76.200.1-9  web test boxes
-     * 10.76.200.10   nodered
-     * 10.76.200.11   mqtt
-     * 10.76.200.12   homenms
-     * 10.76.200.13   homenms-db
-     * 10.76.200.14   caddy dst-nat'd behind 193.47.147.6
-     * 10.76.200.15   portainer - portainer.home.nat.ms
-     * 10.76.200.16   homeassistant - ha.home.nat.ms
+        10.76.200.1-9         web test boxes
+        10.76.200.10          nodered
+        10.76.200.11          mqtt
+        10.76.200.12          homenms
+        10.76.200.13          homenms-db
+        10.76.200.14          caddy dst-nat'd behind 193.47.147.6
+        10.76.200.15          portainer - via caddy portainer.home.nat.ms
+        10.76.200.16          homeassistant - via caddy ha.home.nat.ms
      * 10.76.200.17   influxdb
      * 10.76.200.18   grafana
      * 10.76.200.19   ?
