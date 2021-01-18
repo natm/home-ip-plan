@@ -59,7 +59,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     * 193.47.147.15           NAT src Wifi AP management
     * 193.47.147.16           NAT src IOT
     * 193.47.147.17           NAT src CCTV
-    * 193.47.147.18
+    * 193.47.147.18           NAT src LibreNMS
     * 193.47.147.19           NAT/VIP Unifi Controller
     
     * 193.47.147.20/30        
