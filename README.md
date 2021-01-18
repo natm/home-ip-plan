@@ -88,20 +88,17 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         193.47.147.252        tor-relay2
 ```
 
+## Private assignments
 
-## Assignments:
-
-* 10.76.0.0/16
-  * 10.76.11.0/24     VLAN 11 - Power management, UPS/PDUs
-  * 10.76.12.0/24     VLAN 12 - Switch management
-  * 10.76.13.0/24     VLAN 13 - Unifi APs
-  * VLAN14 - home wifi users
-  * 10.76.16.0/24     VLAN 16 - IOT
-  * 10.76.31.0/24     VLAN 31 - CCTV  
-  * 10.76.32.0/24     VLAN 32 - APs
-  * 10.76.33.0/24     temp nat'd on rt3
-  * 10.76.34.0/24     VPN users
-  * 10.76.200.0/23    Docker containers - covering prefixes - /32s via CRoHDAd
+```
+10.76.0.0/16
+    10.76.10.0/24             VLAN 10 - Management; APs, PDUs, UPSs, Switches
+    10.76.11.0/24             VLAN 11 - Old powermgmt, still has some UPSs on it
+    10.76.14.0/24             VLAN 14 - Home
+    10.76.16.0/24             VLAN 16 - IOT devices
+    10.76.18.0/24             VLAN 18 - Vodafone LTE routed via SXTLTE
+    10.76.31.0/24             VLAN 31 - CCTV cameras
+    10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
      * 10.76.200.1-9  web test boxes
      * 10.76.200.10   nodered
      * 10.76.200.11   mqtt
@@ -129,7 +126,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.43   telegraf-aaisp
      * 10.76.200.44   telegraf-vodafone
      * 10.76.200.45   telegraf-dyfedit2  (on independant pppoe conn)
-     * 10.76.200.200/29    dyfedit1 (castlemorris)
+          * 10.76.200.200/29    dyfedit1 (castlemorris)
        * 10.76.200.201 telegraph-dyfedit1
      * 10.76.200.208/29    dyfedit2 (llwynygorras)
        * 10.76.200.209 telegraph-dyfedit2
@@ -141,6 +138,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.248/29    No routing_mark
        * 10.76.200.248 atlas-home
        * 10.76.200.249 telegraf-home
+```
+
 
 ```
 2001:67c:1b40::/46 cover
