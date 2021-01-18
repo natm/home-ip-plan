@@ -38,6 +38,33 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 30746:5104               from moby4                          *
 ```
 
+## Public assignments
+
+```
+193.47.147.0/24
+    193.47.147.1              rt1.home.nat.ms loopback
+    193.47.147.2
+    193.47.147.3
+    193.47.147.4
+    193.47.147.5
+    193.47.147.6              NAT dst-nat Caddy reverse proxy
+    193.47.147.7              old - MQTT broker
+    193.47.147.8              Container DNS resolver 1
+    193.47.147.9              Container DNS resolver 2
+    193.47.147.10             old - syslog
+    193.47.147.11             old - ntp/sntp
+    193.47.147.12
+    193.47.147.13             NAT src-nat VPN L2TP users
+    193.47.147.14             NAT src-nat home              10.76.14.0/24
+    193.47.147.15             NAT src-nat mgmt              10.76.10.0/24
+    193.47.147.16             NAT src-nat iot               10.76.16.0/24
+    193.47.147.17             NAT src-nat cctv              10.76.17.0/24
+    193.47.147.18             NAT src-nat LibreNMS          10.76.200.12
+    193.47.147.19             NAT dst-nat Unifi Controller  10.76.200.20
+    193.47.147.20/30
+    193.47.147.24/30
+    
+```
 
 
 ## Assignments:
