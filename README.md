@@ -62,6 +62,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     193.47.147.18             NAT src-nat LibreNMS          10.76.200.12
     193.47.147.19             NAT dst-nat Unifi Controller  10.76.200.20
     193.47.147.20/30
+        193.47.147.21         rt1
+        193.47.147.22         ntp.nat.ms
     193.47.147.24/30
         193.47.147.25         rt1
         193.47.147.26         rt2
