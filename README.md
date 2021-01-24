@@ -114,6 +114,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.21   iocontroller home
      * 10.76.200.22   frigate1
      * 10.76.200.23   frigate2
+     * 10.76.200.24   adsb2influxdb
      * 10.76.200.30   atlas-home
      * 10.76.200.31   atlas-dyfedit   (on BGP ext interface)
      * 10.76.200.32   atlas-faelix
