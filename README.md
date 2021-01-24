@@ -53,7 +53,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     193.47.147.9              Container DNS resolver 2
     193.47.147.10             old - syslog
     193.47.147.11             old - ntp/sntp
-    193.47.147.12
+    193.47.147.12             
     193.47.147.13             NAT src-nat VPN L2TP users
     193.47.147.14             NAT src-nat home              10.76.14.0/24
     193.47.147.15             NAT src-nat mgmt              10.76.10.0/24
@@ -61,9 +61,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     193.47.147.17             NAT src-nat cctv              10.76.17.0/24
     193.47.147.18             NAT src-nat LibreNMS          10.76.200.12
     193.47.147.19             NAT dst-nat Unifi Controller  10.76.200.20
-    193.47.147.20/30
-        193.47.147.21         rt1
-        193.47.147.22         ntp.nat.ms
+    193.47.147.20             NAT dst-nat NTP on ADSP Pi
     193.47.147.24/30
         193.47.147.25         rt1
         193.47.147.26         rt2
