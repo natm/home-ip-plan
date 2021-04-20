@@ -86,7 +86,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     193.47.147.248/29
         193.47.147.251        tor-relay1
         193.47.147.252        tor-relay2
-        194.47.147.253        honeygain1
 ```
 
 ## Private assignments
@@ -128,7 +127,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.43   telegraf-aaisp
      * 10.76.200.44   telegraf-vodafone
      * 10.76.200.45   telegraf-dyfedit2  (on independant pppoe conn)
-          * 10.76.200.200/29    dyfedit1 (castlemorris)
+     * 10.76.200.101  honeygain1
+     * 10.76.200.200/29    dyfedit1 (castlemorris)
        * 10.76.200.201 telegraph-dyfedit1
      * 10.76.200.208/29    dyfedit2 (llwynygorras)
        * 10.76.200.209 telegraph-dyfedit2
