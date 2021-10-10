@@ -10,6 +10,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 |---------------------|------------ |---------------|------------|------------------------------------------|
 | 44.131.40.0/24      | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space                 |
 | 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaded to Dyfed IT until August 2020     |
+| 130.193.78.0/24     | AS49396     |   RIPE        |  PA        | Unused                                   |   
 | 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaded to Dyfed IT until August 2020     |
 | 185.19.150.0/24     | AS20712     |   RIPE        |  PA        | Friends and family AAISP FTTC lines      |
 | 185.19.151.0/24     | AS57436     |   RIPE        |  PA        | Loaned to Sameer Abdel-Hafez             |
