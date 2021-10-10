@@ -76,6 +76,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         193.47.147.41         rt1
         193.47.147.42         pve1
         193.47.147.43         pve1-ipmi
+    193.47.147.48/29
+        193.47.147.49         rt1
+        193.47.147.50         minimoby1
     ...
     193.47.147.160/27
         193.47.147.161        rt1
@@ -98,6 +101,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.16.0/24             VLAN 16 - IOT devices
     10.76.18.0/24             VLAN 18 - Vodafone LTE routed via SXTLTE
     10.76.31.0/24             VLAN 31 - CCTV cameras
+    10.76.50.0/24             VLAN 50 - Containers on PIs
+     * 10.76.50.12            resolver2            
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
         10.76.200.1-9         web test boxes
         10.76.200.10          nodered
