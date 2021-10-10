@@ -102,7 +102,19 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.18.0/24             VLAN 18 - Vodafone LTE routed via SXTLTE
     10.76.31.0/24             VLAN 31 - CCTV cameras
     10.76.50.0/24             VLAN 50 - Containers on PIs
-     * 10.76.50.12            resolver2            
+     * 10.76.50.11            resolver1                     minimoby1
+     * 10.76.50.12            resolver2 (down)              minimoby2
+     * 10.76.50.13            mqtt (down)                   minimoby1
+     * 10.76.50.14            home assistant                minimoby1
+     * 10.76.50.200/29    dyfedit1 (castlemorris)
+       * 10.76.50.201     telegraph-dyfedit1
+     * 10.76.50.208/29    dyfedit2 (llwynygorras)
+       * 10.76.50.209     telegraph-dyfedit2
+     * 10.76.50.216/29    dyfeditpppoe (llwynygorras)
+       * 10.76.50.217     telegraph-dyfeditpppoe
+     * 10.76.50.224/29    vodafone
+     * 10.76.50.232/29    faelix (tunnel over vodafone)
+     
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
         10.76.200.1-9         web test boxes
         10.76.200.10          nodered
@@ -132,7 +144,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.43   telegraf-aaisp
      * 10.76.200.44   telegraf-vodafone
      * 10.76.200.45   telegraf-dyfedit2  (on independant pppoe conn)
-     * 10.76.200.101  honeygain1
      * 10.76.200.200/29    dyfedit1 (castlemorris)
        * 10.76.200.201 telegraph-dyfedit1
      * 10.76.200.208/29    dyfedit2 (llwynygorras)
