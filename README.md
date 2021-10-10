@@ -105,7 +105,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.50.11            resolver1                     minimoby1
      * 10.76.50.12            resolver2 (down)              minimoby2
      * 10.76.50.13            mqtt (down)                   minimoby1
-     * 10.76.50.14            home assistant                minimoby1
+     * 10.76.50.14            home assistant (down)         minimoby1
+     * 10.76.50.192/29    home
+       * 10.76.50.193     telegraf-home                     minimoby1
      * 10.76.50.200/29    dyfedit1 (castlemorris)
        * 10.76.50.201     telegraph-dyfedit1
      * 10.76.50.208/29    dyfedit2 (llwynygorras)
@@ -114,6 +116,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
        * 10.76.50.217     telegraph-dyfeditpppoe
      * 10.76.50.224/29    vodafone
      * 10.76.50.232/29    faelix (tunnel over vodafone)
+       * 10.76.50.233     telegraf-faelix
      
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
         10.76.200.1-9         web test boxes
