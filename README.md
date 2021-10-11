@@ -79,7 +79,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         193.47.147.43         pve1-ipmi
     193.47.147.48/29
         193.47.147.49         rt1
-        193.47.147.50         minimoby1
+        193.47.147.50         minimoby1  w/SSD
+        193.47.147.51         minimoby2  w/SSD
+        193.47.147.52         minimoby3  SD card
     ...
     193.47.147.160/27
         193.47.147.161        rt1
