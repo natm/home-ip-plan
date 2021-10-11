@@ -105,7 +105,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.50.0/24             VLAN 50 - Containers on PIs
      * 10.76.50.11            dns1                          minimoby1
      * 10.76.50.12            dns2                          minimoby3
-     * 10.76.50.13            mqtt (down)                   minimoby1
+     * 10.76.50.13            mqtt (wont start)             minimoby1
      * 10.76.50.14            home assistant (down)         minimoby1
      * 10.76.50.15            portainer                     minimoby1   via caddy
      * 10.76.50.16            caddy (down)                  minimoby1
