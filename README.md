@@ -36,7 +36,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 30746:5101               from moby1                          *
 30746:5102               from moby2                          *
 30746:5103               from moby3                          *
-30746:5104               from moby4                          *
 ```
 
 ## Public assignments
@@ -72,7 +71,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         193.47.147.34         moby1     AS64512
         193.47.147.35         moby2     AS64512
         193.47.147.36         moby3     AS64512
-        193.47.147.37         moby3     AS64512
     193.47.147.40/29
         193.47.147.41         rt1
         193.47.147.42         pve1
@@ -130,7 +128,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
        * 10.76.50.233     telegraf-faelix
      
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
-        10.76.200.1-9         web test boxes
         10.76.200.10          nodered
         10.76.200.11          mqtt
         10.76.200.12          homenms
@@ -144,14 +141,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.20   ?
      * 10.76.200.21   iocontroller home
      * 10.76.200.22   frigate1
-     * 10.76.200.23   frigate2
      * 10.76.200.24   adsb2influxdb
-     * 10.76.200.30   atlas-home
-     * 10.76.200.31   atlas-dyfedit   (on BGP ext interface)
-     * 10.76.200.32   atlas-faelix
-     * 10.76.200.33   atlas-aaisp
-     * 10.76.200.34   atlas-vodafone
-     * 10.76.200.35   atlas-dyfedit2  (on independant pppoe conn)
      * 10.76.200.40   telegraf-home
      * 10.76.200.41   telegraf-dyfedit   (on BGP ext interface)
      * 10.76.200.42   telegraf-faelix
@@ -168,7 +158,6 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.200.232/29    faelix (tunnel over vodafone)
      * 10.76.200.240/29
      * 10.76.200.248/29    No routing_mark
-       * 10.76.200.248 atlas-home
        * 10.76.200.249 telegraf-home
 ```
 
