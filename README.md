@@ -106,13 +106,13 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.50.11            dns1                          minimoby1
      * 10.76.50.12            dns2                          minimoby3
      * 10.76.50.13            mqtt (wont start)             minimoby1
-     * 10.76.50.14            home assistant (down)         minimoby1
+     * 10.76.50.14            home assistant (down)         minimoby1   via caddy
      * 10.76.50.15            portainer                     minimoby1   via caddy
-     * 10.76.50.16            caddy (down)                  minimoby1
+     * 10.76.50.16            caddy                         minimoby1
      * 10.76.50.17
      * 10.76.50.18
      * 10.76.50.19
-     * 10.76.50.20            unifi (down)
+     * 10.76.50.20            unifi                         minimoby1
      * 10.76.50.21
      
      * 10.76.50.192/29    home
