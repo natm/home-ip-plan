@@ -77,9 +77,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         193.47.147.43         pve1-ipmi
     193.47.147.48/29
         193.47.147.49         rt1
-        193.47.147.50         minimoby1  w/SSD
-        193.47.147.51         minimoby2  w/SSD
-        193.47.147.52         minimoby3  SD card
+        193.47.147.50         minimoby1  8gb w/SSD
+        193.47.147.51         minimoby2  8gb w/SSD
+        193.47.147.52         minimoby3  2gb SD card
     ...
     193.47.147.160/27
         193.47.147.161        rt1
@@ -104,7 +104,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.31.0/24             VLAN 31 - CCTV cameras
     10.76.50.0/24             VLAN 50 - Containers on PIs
      * 10.76.50.11            dns1                          minimoby1
-     * 10.76.50.12            dns2 (down)                   minimoby2
+     * 10.76.50.12            dns2                          minimoby3
      * 10.76.50.13            mqtt (down)                   minimoby1
      * 10.76.50.14            home assistant (down)         minimoby1
      * 10.76.50.15            portainer                     minimoby1   via caddy
