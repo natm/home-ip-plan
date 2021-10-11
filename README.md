@@ -50,10 +50,10 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     193.47.147.5
     193.47.147.6              NAT dst-nat Caddy reverse proxy
     193.47.147.7              old - MQTT broker
-    193.47.147.8              Container DNS resolver 1
-    193.47.147.9              Container DNS resolver 2
-    193.47.147.10             old - syslog
-    193.47.147.11             old - ntp/sntp
+    193.47.147.8              NAT dst-nat DNS resolver 1
+    193.47.147.9              NAT dst-nat DNS resolver 2
+    193.47.147.10             
+    193.47.147.11             
     193.47.147.12             
     193.47.147.13             NAT src-nat VPN L2TP users
     193.47.147.14             NAT src-nat home              10.76.14.0/24
