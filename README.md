@@ -105,8 +105,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.50.0/24             VLAN 50 - Containers on PIs
      * 10.76.50.11            dns1                          minimoby1
      * 10.76.50.12            dns2                          minimoby3
-     * 10.76.50.13            mqtt (wont start)             minimoby1
-     * 10.76.50.14            home assistant (down)         minimoby1   via caddy
+     * 10.76.50.13            mqtt                          minimoby1
+     * 10.76.50.14            home assistant                minimoby1   via caddy
      * 10.76.50.15            portainer                     minimoby1   via caddy
      * 10.76.50.16            caddy                         minimoby1
      * 10.76.50.17
@@ -129,11 +129,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
         10.76.200.10          nodered
-        10.76.200.11          mqtt
         10.76.200.12          homenms
-        10.76.200.13          homenms-db
-        10.76.200.16          homeassistant - via caddy ha.home.nat.ms
-        
+        10.76.200.13          homenms-db        
      * 10.76.200.17   influxdb
      * 10.76.200.18   grafana
      * 10.76.200.19   ?
