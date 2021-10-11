@@ -103,10 +103,18 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     10.76.18.0/24             VLAN 18 - Vodafone LTE routed via SXTLTE
     10.76.31.0/24             VLAN 31 - CCTV cameras
     10.76.50.0/24             VLAN 50 - Containers on PIs
-     * 10.76.50.11            resolver1                     minimoby1
-     * 10.76.50.12            resolver2 (down)              minimoby2
+     * 10.76.50.11            dns1                          minimoby1
+     * 10.76.50.12            dns2 (down)                   minimoby2
      * 10.76.50.13            mqtt (down)                   minimoby1
      * 10.76.50.14            home assistant (down)         minimoby1
+     * 10.76.50.15            portainer                     minimoby1   via caddy
+     * 10.76.50.16            caddy (down)                  minimoby1
+     * 10.76.50.17
+     * 10.76.50.18
+     * 10.76.50.19
+     * 10.76.50.20            unifi (down)
+     * 10.76.50.21
+     
      * 10.76.50.192/29    home
        * 10.76.50.193     telegraf-home                     minimoby1
      * 10.76.50.200/29    dyfedit1 (castlemorris)
@@ -126,8 +134,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         10.76.200.12          homenms
         10.76.200.13          homenms-db
         10.76.200.14          caddy dst-nat'd behind 193.47.147.6
-        10.76.200.15          portainer - via caddy portainer.home.nat.ms
         10.76.200.16          homeassistant - via caddy ha.home.nat.ms
+        
      * 10.76.200.17   influxdb
      * 10.76.200.18   grafana
      * 10.76.200.19   ?
