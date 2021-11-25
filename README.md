@@ -70,23 +70,21 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
     193.47.147.32/29
         193.47.147.33         rt1
         193.47.147.34         moby1     AS64512
-        193.47.147.35         moby2     AS64512
-        193.47.147.36         moby3     AS64512
     193.47.147.40/29
         193.47.147.41         rt1
         193.47.147.42         pve1
         193.47.147.43         pve1-ipmi
     193.47.147.48/29
         193.47.147.49         rt1
-        193.47.147.50         minimoby1  8gb w/SSD
-        193.47.147.51         minimoby2  8gb w/SSD
-        193.47.147.52         minimoby3  2gb SD card
+        193.47.147.50         minimoby1  pi4 8gb w/SSD
+        193.47.147.51         minimoby2  pi4 8gb w/SSD
+        193.47.147.52         minimoby3  pi4 2gb SD card
+        193.47.147.54         fatmoby1   i7 4c 32gb nuc
     ...
     193.47.147.160/27
         193.47.147.161        rt1
         193.47.147.164        workshopsw1
         193.47.147.169        pirelay1
-        193.47.147.170        pirelay2
     ...
     193.47.147.248/29
         193.47.147.251        tor-relay1
@@ -133,11 +131,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
         10.76.200.12          homenms
         10.76.200.13          homenms-db        
      * 10.76.200.17   influxdb
-     * 10.76.200.18   grafana
      * 10.76.200.19   ?
      * 10.76.200.20   ?
-     * 10.76.200.21   iocontroller home
-     * 10.76.200.22   frigate1
      * 10.76.200.24   adsb2influxdb
      * 10.76.200.40   telegraf-home
      * 10.76.200.41   telegraf-dyfedit   (on BGP ext interface)
