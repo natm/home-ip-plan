@@ -117,6 +117,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.50.23            influxdb                      minimoby2
      * 10.76.50.24            homenms                       minimoby2
      * 10.76.50.25            homenms-db                    minimoby2
+     * 10.76.50.26            homenms-rrdcached             minimoby2
      
      
      * 10.76.50.192/29    home
