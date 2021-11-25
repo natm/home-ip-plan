@@ -112,7 +112,7 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
      * 10.76.50.16            caddy                         minimoby1
      * 10.76.50.17            ioctl-home                    minimoby1
      * 10.76.50.18            frigate1                      minimoby2
-     * 10.76.50.19
+     * 10.76.50.19            grafana                       minimoby2
      * 10.76.50.20            unifi                         minimoby1
      * 10.76.50.21
      
