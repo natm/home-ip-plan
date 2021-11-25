@@ -129,30 +129,9 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
        * 10.76.50.233     telegraf-faelix
      
     10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
-        10.76.200.10          nodered
         10.76.200.12          homenms
         10.76.200.13          homenms-db        
-     * 10.76.200.17   influxdb
-     * 10.76.200.19   ?
-     * 10.76.200.20   ?
-     * 10.76.200.24   adsb2influxdb
-     * 10.76.200.40   telegraf-home
-     * 10.76.200.41   telegraf-dyfedit   (on BGP ext interface)
-     * 10.76.200.42   telegraf-faelix
-     * 10.76.200.43   telegraf-aaisp
-     * 10.76.200.44   telegraf-vodafone
-     * 10.76.200.45   telegraf-dyfedit2  (on independant pppoe conn)
-     * 10.76.200.200/29    dyfedit1 (castlemorris)
-       * 10.76.200.201 telegraph-dyfedit1
-     * 10.76.200.208/29    dyfedit2 (llwynygorras)
-       * 10.76.200.209 telegraph-dyfedit2
-     * 10.76.200.216/29    dyfeditpppoe (llwynygorras)
-       * 10.76.200.217 telegraph-dyfeditpppoe
-     * 10.76.200.224/29    vodafone
-     * 10.76.200.232/29    faelix (tunnel over vodafone)
-     * 10.76.200.240/29
-     * 10.76.200.248/29    No routing_mark
-       * 10.76.200.249 telegraf-home
+
 ```
 
 
