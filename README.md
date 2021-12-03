@@ -6,20 +6,20 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 
 ## Prefixes
 
-| Prefix              | Originated  | RIR           | Type       | Notes                                    |
-|---------------------|------------ |---------------|------------|------------------------------------------|
-| 44.131.40.0/24      | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space                 |
-| 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaded to Voneus PLC until August 2022     |
-| 130.193.78.0/24     | AS49396     |   RIPE        |  PA        | Unused                                   |   
-| 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaded to Voneus PLC until August 2022     |
-| 185.19.150.0/24     | AS20712     |   RIPE        |  PA        | Friends and family AAISP FTTC lines      |
-| 185.19.151.0/24     | AS57436     |   RIPE        |  PA        | Loaned to Sameer Abdel-Hafez             |
-| 185.61.112.0/24     | AS56817     |   RIPE        |  PA        | Home network - RouterOS 7 testing        |
-| 185.61.113.0/24     | AS30746     |   RIPE        |  PA        | Home network - unused                    |
-| 185.61.114.0/22     | AS30746     |   RIPE        |  PA        | Home network - guests                    |
-| 185.61.115.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022     |
-| 193.47.147.0/24     | AS30746     |   RIPE        |  PI        | Home network                             |
-| 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022     |
+| Prefix              | Originated  | RIR           | Type       | Notes                                                      |
+|---------------------|------------ |---------------|------------|------------------------------------------------------------|
+| 44.131.40.0/24      | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space  (not my asset)                   |
+| 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaded to Voneus PLC until August 2022 in exchange for £   |
+| 130.193.78.0/24     | AS49396     |   RIPE        |  PA        | Unused                                                     |   
+| 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaded to Voneus PLC until August 2022 in exchange for £   |
+| 185.19.150.0/24     | AS20712     |   RIPE        |  PA        | Unused, intend to loan to TXRX in exchange for 2 x 1G FTTP |
+| 185.19.151.0/24     | AS57436     |   RIPE        |  PA        | Loaned to Sameer Abdel-Hafez for free                      |
+| 185.61.112.0/24     | AS56817     |   RIPE        |  PA        | Home network - RouterOS 7 testing                          |
+| 185.61.113.0/24     | AS30746     |   RIPE        |  PA        | Home network - unused                                      |
+| 185.61.114.0/22     | AS30746     |   RIPE        |  PA        | Home network - guests                                      |
+| 185.61.115.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
+| 193.47.147.0/24     | AS30746     |   RIPE        |  PI        | Home network - services, NAT behind                        |
+| 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
 
 
 ## BGP communities
