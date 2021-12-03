@@ -6,6 +6,8 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 
 ## Prefixes
 
+IPv4
+
 | Prefix              | Originated  | RIR           | Type       | Notes                                                      |
 |---------------------|------------ |---------------|------------|------------------------------------------------------------|
 | 44.131.40.0/24      | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space  (not my asset)                   |
@@ -21,6 +23,13 @@ Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
 | 193.47.147.0/24     | AS30746     |   RIPE        |  PI        | Home network - services, NAT behind                        |
 | 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
 
+IPv6
+
+| Prefix              | Originated  | RIR           | Type       | Notes                                                      |
+|---------------------|------------ |---------------|------------|------------------------------------------------------------|
+| 2a04:ec40::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
+| 2a11:9d80::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
+| 2a04:ebc0::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
 
 ## BGP communities
 
