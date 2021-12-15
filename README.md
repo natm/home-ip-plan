@@ -31,6 +31,32 @@ IPv6
 | 2a11:9d80::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
 | 2a04:ebc0::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
 
+## Llwynygorras
+
+`130.193.78.0/24`
+
+```
+49396:1000            Route recieved from transit
+49396:1001               from Dyfed IT Castlemorris 1G
+49396:1002               from Dyfed IT Llwynygorras 1G
+49396:1003               from TXRX 1G A
+49396:1004               from TXRX 1G B
+
+49396:2000            Route recieved from downstream
+49396:2001               from Nat A
+```
+
+```
+130.193.78.0/24
+    130.193.78.1/32   gateway loopback
+    130.193.78.54/30  Nat BGP
+    130.193.78.56/29  Nat DHCP
+    130.193.78.64/29  Ryan DHCP
+    130.193.78.72/29  Neil DHCP
+    130.193.78.80/29  Watkin DHCP
+    130.193.78.88/29  Greg DHCP
+```
+
 ## BGP communities
 
 ```
@@ -40,6 +66,10 @@ IPv6
 30746:1001               from Dyfed IT Castlemorris 1G
 30746:1002               from Dyfed IT Llwynygorras 1G
 30746:1004               from FAELIX tunnel
+
+30746:8000            Advertised
+30746:8001               via Dyfed IT Castlemorris
+30746:8002               via Dyfed IT Llwynygorras
 
 30746:5000            Route recieved from a hypervisor
 30746:5101               from moby1                          *
