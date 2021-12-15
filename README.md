@@ -66,10 +66,12 @@ IPv6
 30746:1001               from Dyfed IT Castlemorris 1G
 30746:1002               from Dyfed IT Llwynygorras 1G
 30746:1004               from FAELIX tunnel
+30746:1005               from Llwynygorras
 
 30746:8000            Advertised
 30746:8001               via Dyfed IT Castlemorris
 30746:8002               via Dyfed IT Llwynygorras
+30746:8005               via LLwynygorras
 
 30746:5000            Route recieved from a hypervisor
 30746:5101               from moby1                          *
