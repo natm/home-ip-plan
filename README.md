@@ -168,10 +168,7 @@ IPv6
      * 10.76.50.224/29    vodafone
      * 10.76.50.232/29    faelix (tunnel over vodafone)
        * 10.76.50.233     telegraf-faelix
-     
-    10.76.200.0/23            Docker containers, routed via moby hypervisors VMs, /32s via CROHDAD
-        10.76.200.12          homenms
-        10.76.200.13          homenms-db        
+     * 10.76.50.254       tor-relay-3 src/dst-nat to 195.177.252.5 pppoe      
 
 ```
 
