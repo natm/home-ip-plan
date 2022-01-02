@@ -49,12 +49,12 @@ IPv6
 ```
 130.193.78.0/24
     130.193.78.1/32   gateway loopback
-    130.193.78.54/30  Nat BGP
-    130.193.78.56/29  Nat DHCP
-    130.193.78.64/29  Ryan DHCP
-    130.193.78.72/29  Neil DHCP
-    130.193.78.80/29  Watkin DHCP
-    130.193.78.88/29  Greg DHCP
+    130.193.78.56/30  Nat BGP
+    130.193.78.64/29  Nat DHCP          VLAN 101
+    130.193.78.72/29  Ryans DHCP        VLAN 102
+    130.193.78.80/29  Neil DHCP         VLAN 103
+    130.193.78.88/29  Watkins DHCP      VLAN 104
+    130.193.67.96/29  Greg DHCP         VLAN 105
 ```
 
 ## BGP communities
