@@ -87,7 +87,7 @@ IPv6
     193.47.147.2
     193.47.147.3
     193.47.147.4
-    193.47.147.5
+    193.47.147.5              NAT dst-nat Wireguard
     193.47.147.6              NAT dst-nat Caddy reverse proxy
     193.47.147.7              old - MQTT broker
     193.47.147.8              NAT dst-nat DNS resolver 1
@@ -139,6 +139,7 @@ IPv6
     10.76.18.0/24             VLAN 18 - Vodafone LTE routed via SXTLTE
     10.76.31.0/24             VLAN 31 - CCTV cameras
     10.76.50.0/24             VLAN 50 - Containers on PIs
+     * 10.76.50.5             wireguard                     minimoby3
      * 10.76.50.11            dns1                          minimoby1
      * 10.76.50.12            dns2                          minimoby3
      * 10.76.50.13            mqtt                          minimoby1
