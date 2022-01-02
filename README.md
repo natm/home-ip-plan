@@ -34,6 +34,7 @@ IPv6
 ## Llwynygorras
 
 `130.193.78.0/24`
+`2a11:9d80::/29`
 
 ```
 49396:1000            Route recieved from transit
@@ -48,8 +49,8 @@ IPv6
 
 ```
 130.193.78.0/24
-    130.193.78.1/32   gateway loopback
-    130.193.78.56/30  Nat BGP
+    130.193.78.1/32   gateway loopback              2a11:9d80:1::1/128
+    130.193.78.56/30  Nat BGP                       2a11:9d80:2:1::1/64
     130.193.78.64/29  Nat DHCP          VLAN 101
     130.193.78.72/29  Ryans DHCP        VLAN 102
     130.193.78.80/29  Neil DHCP         VLAN 103
