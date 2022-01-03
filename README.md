@@ -45,6 +45,7 @@ IPv6
 
 49396:2000            Route recieved from downstream
 49396:2001               from Nat A
+49396:2200               ... announce to transit
 ```
 
 ```
