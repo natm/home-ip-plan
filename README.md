@@ -46,6 +46,14 @@ IPv6
 49396:2000            Route recieved from downstream
 49396:2001               from Nat A
 49396:2200               ... announce to transit
+
+49396:3000            Advertised via transit, set outbound to transit providers
+49396:3001               via Dyfed IT Castlemorris 1G
+49396:3002               via Dyfed IT Llwynygorras 1G
+49396:3003               via TXRX 1G A
+49396:3004               via TXRX 1G B
+49396:3100               ... originated prefix
+49396:3200               ... from downstream
 ```
 
 ```
