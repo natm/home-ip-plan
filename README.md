@@ -54,6 +54,8 @@ IPv6
 49396:3004               via TXRX 1G B
 49396:3100               ... originated prefix
 49396:3200               ... from downstream
+
+49396:4000            Route locally originated
 ```
 
 ```
