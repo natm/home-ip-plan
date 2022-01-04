@@ -4,19 +4,22 @@
 
 Internets
 
-Commsworld                   Voneus                     Llwynygorras              Home                     Lab
-==========                   ======                     ============              ====                     ===
+Commsworld                   Voneus                     Llwynygorras *              Home *                   Lab *
+==========                   ======                     ==============              ======                   =====
 ... was Fluency              ... was Dyfed IT
-                             ... was Pembs Wifi 
+                             ... was Pembs Wifi #
                              
 ASxx  --------------------   AS60036 ------------------ AS49396 ----------------- AS30746 ---------------- AS56817
                                  |
                                  |
                                  |
-                                 |                      Treffgarne repeaters
-                                 \                      ====================
+                                 |                      Treffgarne repeaters *
+                                 \                      ======================
                                   \-------------------- AS61220
                                                         
+
+* Operated by me
+# Was once owned by me
 
 ```
 
