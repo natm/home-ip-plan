@@ -69,6 +69,13 @@ IPv6
     130.193.67.96/29  Greg DHCP         VLAN 105    2a11:9d80:3:5::1/64  &  PD 2a11:9d80:a105::/48
 ```
 
+## AS56817 sausage.home.nat.ms
+
+RB3011 for RouterOS 7.x testing, downstream from AS30746
+
+`185.61.112.0/24`
+
+
 ## BGP communities
 
 ```
