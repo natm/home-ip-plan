@@ -15,8 +15,8 @@ AS5xxxx -----(1G EAD via VF)----- AS60036 ----(1G via CM pop)-----  AS49396 ----
         \----(FTTC via TTB) -----/ |  |  \----(1G via LYG pop)----/                                |
                                    |  |                                                            | (1G local)
                                    |  |                                                            |
-                                   |  |                    Treffgarne repeaters *               AS56817  Lab
-                                   \  \----(1G local)----\ ======================                        ===
+                                   |  |                    Treffgarne repeaters *               AS56817  Lab *
+                                   \  \----(1G local)----\ ======================                        =====
                                     \------(1G local)----- AS61220
                                                         
 * Operated by me
