@@ -27,10 +27,10 @@ IPv6
 
 | Prefix              | Originated  | RIR           | Type       | Notes                                                      |
 |---------------------|------------ |---------------|------------|------------------------------------------------------------|
-| 2a04:ec40::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
-| 2a11:9d80::/29      | AS49396     |   RIPE        |  PA        | LYG                                                     |
 | 2a04:ebc0::/29      | AS30746     |   RIPE        |  PA        | Home                                                       |
-
+| 2a04:ec40::/29      | AS30746     |   RIPE        |  PA        | Lab and other things                                       |
+| 2a11:9d80::/29      | AS49396     |   RIPE        |  PA        | LYG                                                        |
+  
 ## Llwynygorras
 
 `130.193.78.0/24`
