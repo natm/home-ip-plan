@@ -1,5 +1,25 @@
 # Home IP Plan
 
+```
+
+Internets
+
+Commsworld                   Voneus                     Llwynygorras              Home                     Lab
+==========                   ======                     ============              ====                     ===
+... was Fluency              ... was Dyfed IT
+                             ... was Pembs Wifi 
+                             
+ASxx  --------------------   AS60036 ------------------ AS49396 ----------------- AS30746 ---------------- AS56817
+                                 |
+                                 |
+                                 |
+                                 |                      Treffgarne repeaters
+                                 \                      ====================
+                                  \-------------------- AS61220
+                                                        
+
+```
+
 Home AS30746, transit provided by AS41495 and AS60036.
 
 Dev AS56817 is behind AS30746, single router for RouterOS 7 testing.
