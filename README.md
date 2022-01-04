@@ -1,26 +1,26 @@
 # Home IP Plan
 
 ```
-
-Internets
-
-Commsworld                   Voneus                     Llwynygorras *              Home *                   Lab *
-==========                   ======                     ==============              ======                   =====
-... was Fluency              ... was Dyfed IT
-                             ... was Pembs Wifi #
-                             
-ASxx  --------------------   AS60036 ------------------ AS49396 ----------------- AS30746 ---------------- AS56817
-                                 |
-                                 |
-                                 |
-                                 |                      Treffgarne repeaters *
-                                 \                      ======================
-                                  \-------------------- AS61220
+TXRX
+====     /------------(1000/110 FTTP via Zen)--------------\
+AS198722 -------------(1000/110 FTTP via ICUK)------------\ \
+                                                           \ \
+                                                            \ \
+Commsworld                   Voneus                          \ \   Llwynygorras *              Home *                     Lab *
+==========                   ======                           \ \  ==============              ======                     =====
+... was Fluency              ... was Dyfed IT                  \ \
+                             ... was Pembs Wifi #               \ \
+                                                                 \ \
+AS5xxxx -----(1G EAD via VF)----- AS60036 ----(1G via CM pop)-----  AS49396 ----(10G local)---- AS30746 ----(1G local)---- AS56817
+        \----(FTTC via TTB) -----/ |  |  \----(1G via LYG pop)----/
+                                   |  |
+                                   |  |
+                                   |  |                    Treffgarne repeaters *
+                                   \  \----(1G local)----\ ======================
+                                    \------(1G local)----- AS61220
                                                         
-
 * Operated by me
 # Was once owned by me
-
 ```
 
 Home AS30746, transit provided by AS41495 and AS60036.
