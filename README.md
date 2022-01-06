@@ -135,27 +135,19 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
     193.47.147.10             
     193.47.147.11             
     193.47.147.12             
-    193.47.147.13             NAT src-nat VPN L2TP users
-    193.47.147.14             NAT src-nat home              10.76.14.0/24
-    193.47.147.15             NAT src-nat mgmt              10.76.10.0/24
-    193.47.147.16             NAT src-nat iot               10.76.16.0/24
-    193.47.147.17             NAT src-nat cctv              10.76.17.0/24
-    193.47.147.18             NAT src-nat LibreNMS          10.76.200.12
-    193.47.147.19             NAT dst-nat Unifi Controller  10.76.200.20
+    193.47.147.13             NAT src-nat containers
+    193.47.147.14             NAT src-nat home                   10.76.14.0/24
+    193.47.147.15             NAT src-nat mgmt                   10.76.10.0/24
+    193.47.147.16             NAT src-nat iot                    10.76.16.0/24
+    193.47.147.17             NAT src-nat cctv                   10.76.31.0/24
+    193.47.147.18             NAT src-nat LibreNMS               10.76.200.12
+    193.47.147.19             NAT src/dst-nat Unifi Controller   10.76.50.20
     193.47.147.20             NAT dst-nat NTP on ADSP Pi
     193.47.147.21             NAT dst-nat frigate1
     193.47.147.22             NAT dst-nat Unifi Controller old
     193.47.147.24/30
         193.47.147.25         rt1
         193.47.147.26         rt2
-    193.47.147.28/30
-    193.47.147.32/29
-        193.47.147.33         rt1
-        193.47.147.34         moby1     AS64512
-    193.47.147.40/29
-        193.47.147.41         rt1
-        193.47.147.42         pve1
-        193.47.147.43         pve1-ipmi
     193.47.147.48/29
         193.47.147.49         rt1
         193.47.147.50         minimoby1  pi4 8gb w/SSD
