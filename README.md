@@ -31,9 +31,11 @@ IPv4
 
 | Prefix              | Originated  | RIR           | Type       | Notes                                                      |
 |---------------------|------------ |---------------|------------|------------------------------------------------------------|
-| 44.131.40.0/24      | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space  (not my asset)                   |
+| 44.131.4.0/24       | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space  (not my asset)                   |
+| 44.131.5.0/24       | AS61220     |   AMPRnet     |  Assigned  | Treffgarne repeater group, APRS/DMR etc                    |
+| 44.131.170.0/24     | AS30746     |   AMPRnet     |  Assigned  | Sparks amateur radio space  (not my asset)                 |
 | 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
-| 130.193.78.0/24     | AS49396     |   RIPE        |  PA        | Unsued                                                     |   
+| 130.193.78.0/24     | AS49396     |   RIPE        |  PA        | Llwynygorras                                               |   
 | 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
 | 185.19.150.0/24     | AS20712     |   RIPE        |  PA        | Loaned TXRX in exchange for 2 x 1G FTTP                    |
 | 185.19.151.0/24     | AS57436     |   RIPE        |  PA        | Loaned to Sameer Abdel-Hafez for free                      |
