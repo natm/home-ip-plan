@@ -12,8 +12,8 @@ Commsworld                   Voneus                          \ \   Llwynygorras 
                              ... was Pembs Wifi #               \ \
                                                                  \ \
 AS5xxxx -----(1G EAD via VF)----- AS60036 ----(1G via CM pop)-----  AS49396 ----(10G local)---- AS30746
-        \----(FTTC via TTB) -----/ |  |  \----(1G via LYG pop)----/                                |
-                                   |  |                                                            | (1G local)
+        \----(FTTC via TTB) -----/ |  |  \----(1G via LYG pop)----/     |                          
+                                   |  |                                 \-------(1G local)---------\
                                    |  |                                                            |
                                    |  |                    Treffgarne repeaters *               AS56817  Lab *
                                    \  \----(1G local)----\ ======================                        =====
