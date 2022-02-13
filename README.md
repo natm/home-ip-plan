@@ -128,13 +128,13 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
     193.47.147.1              rt1.home.nat.ms loopback
     193.47.147.2
     193.47.147.3
-    193.47.147.4
+    193.47.147.4              
     193.47.147.5              NAT dst-nat Wireguard
     193.47.147.6              NAT dst-nat Caddy reverse proxy
-    193.47.147.7              old - MQTT broker
+    193.47.147.7              
     193.47.147.8              NAT dst-nat DNS resolver 1
     193.47.147.9              NAT dst-nat DNS resolver 2
-    193.47.147.10             
+    193.47.147.10             rt1.home.nat.ms VPN local-ip
     193.47.147.11             
     193.47.147.12             
     193.47.147.13             NAT src-nat containers
