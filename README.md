@@ -174,6 +174,7 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
     10.76.31.0/24             VLAN 31 - CCTV cameras
     10.76.50.0/24             VLAN 50 - Containers on PIs
      * 10.76.50.5             wireguard                     minimoby3
+     * 10.76.50.6             tailscale                     minimoby1
      * 10.76.50.11            dns1                          minimoby1
      * 10.76.50.12            dns2                          minimoby3
      * 10.76.50.13            mqtt                          minimoby1
