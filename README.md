@@ -147,6 +147,7 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
     193.47.147.20             NAT dst-nat NTP on ADSP Pi
     193.47.147.21             NAT dst-nat frigate1
     193.47.147.22             NAT dst-nat Unifi Controller old
+    193.47.147.23             alex tunnel
     193.47.147.24/30
         193.47.147.25         rt1
         193.47.147.26         rt2
