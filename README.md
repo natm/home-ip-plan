@@ -31,20 +31,17 @@ IPv4
 
 | Prefix              | Originated  | RIR           | Type       | Notes                                                      |
 |---------------------|------------ |---------------|------------|------------------------------------------------------------|
-| 44.131.4.0/24       | AS30746     |   AMPRnet     |  Assigned  | Home amateur radio space  (not my asset)                   |
-| 44.131.5.0/24       | AS61220     |   AMPRnet     |  Assigned  | Treffgarne repeater group, APRS/DMR etc                    |
-| 44.131.170.0/24     | AS30746     |   AMPRnet     |  Assigned  | Sparks amateur radio space  (not my asset)                 |
-| 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
+| 91.232.181.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC for £                                 |
 | 130.193.78.0/24     | AS49396     |   RIPE        |  PA        | Llwynygorras                                               |   
-| 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
+| 185.19.148.0/23     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC for £                                 |
 | 185.19.150.0/24     | AS20712     |   RIPE        |  PA        | Loaned TXRX in exchange for 2 x 1G FTTP                    |
-| 185.19.151.0/24     | AS57436     |   RIPE        |  PA        | Loaned to Sameer Abdel-Hafez for free                      |
-| 185.61.112.0/24     | AS56817     |   RIPE        |  PA        | Home network - RouterOS 7 testing                          |
-| 185.61.113.0/24     | AS30746     |   RIPE        |  PA        | Home network - unused                                      |
-| 185.61.114.0/22     | AS30746     |   RIPE        |  PA        | Home network - guests                                      |
-| 185.61.115.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
+| 185.19.151.0/24     | AS215000    |   RIPE        |  PA        | Loaned to Country Connect for £                            |
+| 185.61.112.0/24     | AS215000    |   RIPE        |  PA        | Loaned to Country Connect for £                            |
+| 185.61.113.0/24     | AS215000    |   RIPE        |  PA        | Loaned to Country Connect for £                            |
+| 185.61.114.0/22     | AS215000    |   RIPE        |  PA        | Loaned to Country Connect for £                            |
+| 185.61.115.0/24     | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC for £                                 |
 | 193.47.147.0/24     | AS30746     |   RIPE        |  PI        | Home network - services, NAT behind                        |
-| 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC until August 2022 in exchange for £   |
+| 195.177.252.0/23    | AS60036     |   RIPE        |  PA        | Loaned to Voneus PLC for £                                 |
 
 IPv6
 
@@ -136,10 +133,10 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
     193.47.147.9              NAT dst-nat DNS resolver 2
     193.47.147.10             rt1.home.nat.ms VPN local-ip
     193.47.147.11             
-    193.47.147.12             
+    193.47.147.12             NAT SRC guests                                        routed to UXG .66
     193.47.147.13             NAT src-nat containers
-    193.47.147.14             NAT src-nat home                   10.76.14.0/24
-    193.47.147.15             NAT src-nat mgmt                   10.76.10.0/24
+    193.47.147.14             NAT src-nat home                   10.76.14.0/24      routed to UXG .66
+    193.47.147.15             NAT src-nat mgmt                   10.76.10.0/24      routed to UXG .66
     193.47.147.16             NAT src-nat iot                    10.76.16.0/24
     193.47.147.17             NAT src-nat cctv                   10.76.31.0/24
     193.47.147.18             NAT src-nat LibreNMS               10.76.200.12
@@ -157,6 +154,10 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
         193.47.147.51         minimoby2  pi4 8gb w/SSD
         193.47.147.52         minimoby3  pi4 2gb SD card
         193.47.147.54         fatmoby1   i7 4c 32gb nuc
+    193.47.147.64/28
+         193.47.147.65        rt1
+         193.47.147.66        uxg wan1
+
     ...
     193.47.147.248/29
         193.47.147.251        tor-relay1
