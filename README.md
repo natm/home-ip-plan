@@ -193,6 +193,9 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
      * 10.76.50.24            homenms                       minimoby2
      * 10.76.50.25            homenms-db                    minimoby2
      * 10.76.50.26            homenms-rrdcached             minimoby2
+    10.76.100.0/30
+     * 10.76.100.1            uxg 
+     * 10.76.100.2            vpn.gorras.uk mikrotik
      
      
      * 10.76.50.192/29    home
@@ -207,7 +210,7 @@ RB3011 for RouterOS 7.x testing, downstream from AS30746
      * 10.76.50.232/29    faelix (tunnel over vodafone)
        * 10.76.50.233     telegraf-faelix
      * 10.76.50.254       tor-relay-3 src/dst-nat to 195.177.252.5 pppoe      
-
+10.254.0.0/21             guests
 ```
 
 
